@@ -1,0 +1,191 @@
+body {
+  background-color: #F5F5F5;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.bgH {
+  background-image: url(https://www.vunesp.com.br/img/bg-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60px;
+  padding-bottom: 10px;
+  z-index: -999;
+  padding-top: 5px;
+}
+
+.logo {
+  width: 135px;
+  /* height: 120px; */
+}
+
+.container {
+  width: 1200px;
+  padding: 0 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+}
+
+.btn {
+  width: 360px;
+  height: 451px;
+  /* margin-top: 10px; */
+  margin: 10px;
+  padding: 10px;
+  /* margin: 30px; */
+  background-color: white;
+  box-shadow: 0px 0px 8px 0px rgba(204, 204, 204, 0.3);
+
+}
+
+.arrumacada {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: 2;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+
+ul {
+  /* align-items: center;
+  display: flex;
+  justify-content: space-between; */
+  list-style: none;
+  font-size: 13px;
+  /* width: 100%; */
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+a {
+  color: #383838;
+  text-decoration: none;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #e4640d;
+  font-size: 15px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+p {
+  font-size: 12px;
+}
+
+.vagas {
+  background-color: #383838;
+  color: white;
+  padding: 8px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.local {
+  background-color: #383838;
+  color: white;
+  padding: 4px;
+  font-weight: bold;
+}
+
+.linetop {
+  border-top: 1px solid #383838;
+  padding-top: 8px;
+  width: 100%;
+}
+
+.linebotton {
+  height: 100%;
+  border-bottom: 1px solid #383838;
+}
+
+.lightlinebotton {
+  border-bottom: 1px solid #b4b4b465;
+  margin-bottom: 15px;
+}
+
+.specvagas {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.flex-space {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc {
+  padding-top: 10px;
+}
+
+.gray {
+  background-color: #585858;
+  padding: 20px 0;
+}
+
+.red {
+  height: 47px;
+  background-color: #bf3533;
+}
+
+.light {
+  background-color: #c9c9c9;
+}
+
+.mais {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  /* position: relative; */
+}
+
+.mais a {
+
+  margin-top: 110px;
+  background-color: #e4640d;
+  color: #fff;
+  z-index: 3;
+  padding: 5px;
+  font-size: 11px;
+  font-weight: bold;
+  width: 100px;
+}
+
+
+.on {
+  padding: 5px;
+  color: #ff2941;
+}
+
+.off {
+  padding: 5px;
+  color: #55b40e;
+
+}
