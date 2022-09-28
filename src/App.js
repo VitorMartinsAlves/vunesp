@@ -50,7 +50,7 @@ class App extends React.Component {
 
                     <p className="lightlinebotton"><b>SALÁRIO:</b> R$ <b>{data.remu}</b></p>
 
-                    <p className="specvagas"><div><span className="linetop"><span className="vagas">Vagas: {data.num} </span><b>INSCRIÇÕES:</b><span className={data.status}><i className="bi bi-circle-fill danger"></i></span> {data.onOff} </span></div></p>
+                    <p className="specvagas"><div><span className="linetop"><span className="vagas">Vagas: {data.numVagas} </span><b>INSCRIÇÕES:</b>    {data.status ? <i className="bi bi-circle-fill off"></i> : <i className="bi bi-circle-fill on"></i>}  {data.onOff} </span></div></p>
 
                     <p className="desc">  {data.desc}</p>
                     <div className="mais">
